@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('curriculum', function () {
+    return view('front/home');
+});
+Route::get('curriculum/{locale}', function ($locale) {
+	App::setLocale($locale);
+    return view('front/home');
+});
+Route::resource('usuario','UsuarioController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
