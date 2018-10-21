@@ -1,0 +1,10 @@
+
+	-dichos nav haran scroll automatico en el elemento que se quiere mostra, sin hacer las animaciones para no reventar los recursos
+
+	- para skills, el primer scroll hacia abajo mostrara en animación un pequeño banner con parallax que contendrá adornos, dos adornos en forma de código que se hara opaco a medida que se materializa su contraparte visual (screenshot del mismo)
+	debajo de este parallax se mostrará las habilidades en front-end con imágenes animadas
+
+	- otro scroll hacia abajo mostrará una animación con tres elementos, una consulta sql, una base de datos y por último la consulta realizada visualmente.
+	debajo de este parallax se mostrarán las habilidades en back-end con imágenes animadas
+ 
+ 	--- continua
